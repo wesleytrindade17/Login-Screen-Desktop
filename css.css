@@ -178,3 +178,78 @@ h1 {
 .fa-circle-xmark {
   color: rgba(253, 62, 62, 1);
 }
+
+/*Mobile test*/
+
+@media (max-width: 835px) {
+  body {
+    display: block;
+    background-color: red;
+  }
+  .container2 {
+    display: none;
+  }
+  .container1 {
+    height: 100vh;
+    width: 100vh;
+  }
+  .logo {
+    position: relative;
+    top: -70px;
+    left: -140px;
+  }
+}
+/*==================================================*/
+
+/*Responsive*/
+/*@media only screen and (min-width: 400px) and (max-width: 900px) {
+  body {
+  }
+  .main {
+    display: block;
+  }
+  .container1 {
+    height: 100vh;
+    width: 100vh;
+  }
+  .container2 {
+    display: none;
+    background-color: none;
+  }
+  img {
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 630px) {
+  .logo {
+    position: relative;
+    top: -90px;
+    left: -140px;
+  }
+}*/
+
+/*@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  body {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1199px) {
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  .container1 {
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(248, 248, 248, 1);
+  }
+  .container2 {
+  }
+  body {
+    display: flex;
+
+    background-color: blueviolet;
+  }
+  img {
+    max-width: 600px;
+  }
+}*/
